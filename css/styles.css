@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  color: rgb(95, 54, 54);
+  background-color: linear-gradient(rgb(255,255,255), rgb(200, 200, 100), rgb(100, 150, 100));
+  font-family: Helvetica !important;
+  background-image: url(../images/abstract-pattern-black-line-circuit-board-on-white-background-technology-concept-vector.jpg);
+}
+/* ------------- header --------------- */
+header {
+  background-color: #24252a;
+  width: 100%;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 30px 10%;
+  height: 103px;
+  z-index: 3;
+  box-shadow: 0 0 100px 0 rgba(83, 14, 14, 0.8);
+}
+.photo_id {
+  max-width: 100px;
+  border-radius: 90%;
+  cursor: pointer;
+  border: 4px double;
+}
+.photo_id:hover {
+  background-color:rgba(0, 136, 169, 0.8);
+}
+li, a, button, .btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+button, .btn {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover, .btn:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+nav ul li a {
+  transition: all 0.3s ease 0s;
+}
+nav ul li a:hover {
+  color: #338899;
+}
+nav {
+  width: 50%;
+  max-width: 300px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+nav > ul > li {
+  list-style: none;
+}
+/* ---------- main -------------- */
+
+/* --------------- initial-page --------------- */
+.alberto {
+  width: 80%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 113px auto 180px auto;
+  background-image: url(../images/5651981.jpg);
+  background-position: center;
+  border: 20px dotted black;
+  border-radius: 7%;
+  box-shadow: 0 0 100px 0 rgba(83, 14, 14, 0.8);
+  padding: 420px;
+}
+.alberto h1 {
+  padding-bottom: 80px;
+}
+
+/* ---------- about ------------- */
+
+.about {
+  font-size: 25px;
+  width: 100%;
+}
+
+.prova {
+  padding-top: 120px;
+}
+/* --------- projects -----(button css on header)---- */
+.projects {
+  padding-top: 150px;
+  width: 80%;
+  margin: 0 auto 100px auto;
+  text-align: center;
+}
+.projects .card {
+
+  margin: 40px auto;
+}
+.projects hr {
+  padding-bottom: 30px;
+}
+/* ----------- skills --------------- */
+.skills {
+  width: 90%;
+  text-align: center;
+  margin: 150px auto;
+  
+}
+.skills h2 {
+  margin-bottom: 70px;
+}
+.progress {
+  margin-bottom: 50px;
+}
+/* ------------- contacts ------------ */
+.contacts{
+  margin-top: 150px;
+  padding-top: 50px;
+  text-align: center;
+}
+.contacts h4 {
+  margin: 20px;
+  font-size: 50px;
+  padding-left: 40px;
+}
+
+/* ---------- footer ------------- */
+
+footer {
+  background-color: #2a2a40;
+  text-align: center;
+}
+footer > ul > li {
+  display: inline;
+  padding: 0 10px;
+  list-style: none;
+}
+footer p {
+  color: grey;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+footer .logo {
+  width: 30px;
+  max-width: 30px;
+}
