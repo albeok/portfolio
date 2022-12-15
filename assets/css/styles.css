@@ -74,31 +74,46 @@ nav > ul > li {
 /* ---------- main -------------- */
 
 /* --------------- initial-page --------------- */
-.alberto {
-  width: 80%;
+.start {
+  width: 90%;
+  height: auto;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  margin: 113px auto 180px auto;
-  background-image: url(../images/5651981.jpg);
-  background-position: center;
-  border: 20px dotted black;
-  border-radius: 7%;
+  margin: 213px auto 180px auto;
+  background-image: linear-gradient(#4b2424 0%, #AACFEF 100%);;
   box-shadow: 0 0 100px 0 rgba(83, 14, 14, 0.8);
-  padding: 420px;
 }
-.alberto h1 {
+.start h1 {
+  padding-top: 7%;
+  margin-top: 20%;
   padding-bottom: 80px;
+  color: #111111;
+  font-weight: 800;
+  font-family: fantasy;
 }
-
+#carousel-words {
+  padding-bottom: 7%;;
+}
 /* ---------- about ------------- */
 
 .about {
   font-size: 25px;
-  width: 100%;
+  margin: auto;
 }
-
-.prova {
-  padding-top: 120px;
+.about h2 {
+  text-align: center;
+}
+p {
+  padding: 20px 0;
+  overflow-wrap: break-word;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.col-4 {
+  padding: 0;
+  margin: auto;
 }
 /* --------- projects -----(button css on header)---- */
 .projects {
@@ -127,6 +142,21 @@ nav > ul > li {
 .progress {
   margin-bottom: 50px;
 }
+#python {
+  width: 60%;
+}
+#django {
+  width: 80%;
+}
+#mongodb {
+  width: 50%;
+}
+#solidity {
+  width: 60%;
+}
+#htmlcss{
+  width: 50%;
+}
 /* ------------- contacts ------------ */
 .contacts{
   margin-top: 150px;
@@ -144,11 +174,17 @@ nav > ul > li {
 footer {
   background-color: #2a2a40;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 footer > ul > li {
   display: inline;
   padding: 0 10px;
   list-style: none;
+}
+footer ul {
+  padding-top: 1%;
+  margin: 0px;
 }
 footer p {
   color: grey;
