@@ -29,16 +29,21 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
         <a href="#start"><img class="photo_id"src="./assets/images/Schermata del 2022-11-24 23-18-18.png" alt="me"></a>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             </ul>
         </nav>
-        <a href="#contacts"><button>Contact Me</button></a>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+       </div>
+        <a href="#contacts"><button class="btn">Contact Me</button></a>
     </header>
     <main>
         <section class="start" id="start" role="region" aria-labelledby="start">
@@ -51,12 +56,12 @@
           <div class="about"  id="about">
             <div class="row">
               <div class="col-4">
-                <figure class="figure">
-                  <img src="./assets/images/IMG_20221210_000909.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figure class="figure zoom">
+                  <img src="./assets/images/IMG_20221210_000909.jpg" class="figure-img img-fluid rounded" alt="Rathlin Island">
                   <figcaption class="figure-caption text-end">A peaceful view in Rathlin Island while listening the seals barking, Northern Ireland.</figcaption>
                 </figure>
-                <figure class="figure">
-                  <img src="./assets/images/IMG_20221210_001012.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figure class="figure zoom">
+                  <img src="./assets/images/IMG_20221210_001012.jpg" class="figure-img img-fluid rounded" alt="Giant's Causeway">
                   <figcaption class="figure-caption text-end">Giant's Causeway, Northern Ireland.</figcaption>
                 
               </div>
@@ -81,7 +86,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
               <div class="col">
                 <div class="card">
-                  <img src="./assets/images/images.png" class="card-img-top" alt="report">
+                  <img src="./assets/images/images.png" class="card-img-top" alt="crypto report image">
                   <div class="card-body">
                     <h5 class="card-title">Python Project</h5>
                     <p>Daily cryptocurrency report generator.</p>
@@ -92,7 +97,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="./assets/images/Schermata del 2022-12-10 02-24-44.png" class="card-img-top" alt="vegan-style">
+                  <img src="./assets/images/Schermata del 2022-12-10 02-24-44.png" class="card-img-top" alt="vegan style">
                   <div class="card-body">
                     <h5 class="card-title">Vegan Style</h5>
                     <p class="card-text">Data board for a synthetic meat startup.</p>
@@ -103,7 +108,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="./assets/images/adobestock-400178239-2.jpg" class="card-img-top" alt="bitcoin-exchange">
+                  <img src="./assets/images/adobestock-400178239-2.jpg" class="card-img-top" alt="bitcoin exchange">
                   <div class="card-body">
                     <h5 class="card-title">Didactic Bitcoin Exchange Platform</h5>
                     <p class="card-text">...</p>
@@ -122,11 +127,11 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="./assets/images/Schermata del 2022-12-15 03-50-24.png" class="card-img-top" alt="report">
+                  <img src="./assets/images/Schermata del 2022-12-15 03-50-24.png" class="card-img-top" alt="portfolio">
                   <div class="card-body">
                     <h5 class="card-title">Portfolio</h5>
                     <p>If you want to see the code for this website, you can do so by clicking on the button below.</p>
-                    <a href="https://github.com/albeok/Python-Project" target="_blank" class="btn">See the code here</a>
+                    <a href="https://github.com/albeok/portfolio" target="_blank" class="btn">See the code here</a>
                     
                   </div>
                 </div>
@@ -190,5 +195,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="./assets/js/portfolio_custom.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

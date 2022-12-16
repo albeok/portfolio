@@ -23,8 +23,8 @@ header {
   height: 103px;
   z-index: 3;
   box-shadow: 0 0 100px 0 rgba(83, 14, 14, 0.8);
-  /* -webkit-backface-visibility: hidden; */
 }
+@media (min-width:801px) {
 .photo_id {
   max-width: 100px;
   border-radius: 90%;
@@ -34,14 +34,14 @@ header {
 .photo_id:hover {
   background-color:rgba(0, 136, 169, 0.8);
 }
-li, a, button, .btn {
+li, a, .btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
 }
-button, .btn {
+.btn {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
@@ -49,7 +49,7 @@ button, .btn {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-button:hover, .btn:hover {
+.btn:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 nav ul li a {
@@ -70,6 +70,86 @@ nav > ul {
 }
 nav > ul > li {
   list-style: none;
+}
+.hamburger {
+  display: none;
+}
+}
+@media (max-width:800px){
+  .photo_id {
+    max-width: 80px;
+    border-radius: 90%;
+    cursor: pointer;
+    border: 4px double;
+  }
+  .photo_id:hover {
+    background-color:rgba(0, 136, 169, 0.8);
+  }
+  li, a, .btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  nav > ul > li {
+    list-style: none;
+  }
+  .btn {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .btn:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  .hamburger {
+    display: block;
+  }
+ .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+ .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+ .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+ .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+ .nav-item{
+    margin: 16px 0;
+  }
+  .nav-link{
+    transition: 0.3s ease-out;
+  }
+  .nav-link:hover{
+    color: dodgerblue;
+  }
+ .nav-menu.active{
+    left: 0;
+  }
 }
 /* ---------- main -------------- */
 
@@ -114,6 +194,20 @@ p {
 .col-4 {
   padding: 0;
   margin: auto;
+}
+/* .zoom {
+  overflow: hidden;
+  margin: 0 auto;
+} */
+
+
+.zoom img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img {
+  transform: scale(1.4);
 }
 /* --------- projects -----(button css on header)---- */
 .projects {
