@@ -8,7 +8,7 @@ const About = () => (
                     About Me
                 </h4>
                 <h5 className="font-poppins text-2xl font-bold md:text-left text-center text-[#2d2e32] tracking-wide md:mb-5 mb-8">
-                    A Junior Web Developer based in Milan, Italy 📍
+                    A Junior Full Stack Web & Blockchain Developer based in Milan, Italy 📍
                 </h5>
                 <div className="relative">
                     <p className="md:text-left text-center font-light font-mono text-[#555] tracking-tightest">
