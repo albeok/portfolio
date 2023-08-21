@@ -12,8 +12,8 @@ const Hero = () => {
                     </div>
 
                     <div className="flex flex-col gap-6">
-                        <h1 className="text-[#2d2e32] font-bold text-6xl sm:text-left text-center">Web & Blockchain<br /> Developer</h1>
-                        <p className="sm:text-left text-center font-light font-mono text-[#555]">Hi, I'm Alberto Toscano. <br className="md:hidden flex" />I'm a Web & Blockchain <br /> Developer <br className="sm:flex md:hidden hidden" /> based in Milan, Italy. 📍</p>
+                        <h1 className="text-[#2d2e32] font-bold text-6xl sm:text-left text-center mt-10">Full Stack <br className="md:hidden flex" /> Web &<br /> Blockchain Developer</h1>
+                        <p className="sm:text-left text-center font-light font-mono text-[#555]">Hi, I'm Alberto Toscano. <br className="md:hidden flex" />I'm a Full Stack Web & Blockchain <br /> Developer <br className="sm:flex md:hidden hidden" /> based in Milan, Italy. 📍</p>
                         <div className="flex flex-row items-center sm:justify-start justify-center sm:gap-4 gap-1">
                             <div className="flex items-center justify-center p-1 rounded-full bg-white border-2 border-slate-200 w-[40px] h-[40px] hover:border-red-400 transition duration-500">
                                 <a href="https://github.com/albeok" target="_blank">

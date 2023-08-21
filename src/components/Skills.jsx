@@ -11,7 +11,7 @@ const Skills = () => (
                     key={skill.id}
                     className="list-none p-2 border-2 w border-slate-200 hover:border-red-300 transition duration-500 rounded-full cursor-pointer"
                 >
-                    <img src={skill.icon} alt={skill.id} className="w-auto h-auto" />
+                    <img src={skill.icon} alt={skill.id} className="w-[48px] h-[48px]" />
                 </li>
 
             ))}

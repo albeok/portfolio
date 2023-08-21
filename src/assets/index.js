@@ -24,7 +24,8 @@ import healthChainUI from "./healthchainUI.png"
 import portfolio from "./portfolio.png"
 import mail from "./mail.svg"
 import linkedin2 from "./linkedin2.svg"
+import bootstrap from "./bootstrap.svg"
 
 export {
-    close, github, hamburger, hero_image, linkedin, react, html, js, python, django, tailwind, css, solidity, mongodb, linux, laptop, arrowdown, arrowTopRight, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio, mail, linkedin2
+    close, github, hamburger, hero_image, linkedin, react, html, js, python, django, tailwind, css, solidity, mongodb, linux, laptop, arrowdown, arrowTopRight, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio, mail, linkedin2, bootstrap
 }
