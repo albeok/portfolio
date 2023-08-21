@@ -4,7 +4,7 @@ const Footer = () => (
     <footer className="bg-gray-800 py-20">
         <div className="sm:mx-[150px] mx-5 flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-4 md:mb-0">
-                <p className="text-white uppercase font-poppins font-bold">{footerLinks[0].copyright}</p>
+                <p className="text-white font-poppins font-bold">{footerLinks[0].copyright}</p>
             </div>
             <div className="flex gap-4">
                 {footerLinks[0].socialMedia.map((link) => (

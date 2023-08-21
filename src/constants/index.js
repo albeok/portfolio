@@ -74,7 +74,7 @@ export const projects = [
         image: cryptoReport,
         title: "Python Project",
         description: "Everyday this program pick some informations from CoinMarketCap to generate some information you care about and save them in a JSON file.",
-        skills: ["Python"],
+        skills: ["Python", "JSON"],
         links: {
             "github": "https://github.com/albeok/Python-Project",
             liveDemo: ""
@@ -97,7 +97,7 @@ export const projects = [
         image: btcExchange,
         title: "Bitcoin Exchange",
         description: "Cryptocurrency exchange platform. USD/BTC exchange with no fees.",
-        skills: ["Python", "Django", "MongoDB", "Redis", "Bootstrap"],
+        skills: ["Python", "Django", "MongoDB", "JSON", "Bootstrap"],
         links: {
             "github": "https://github.com/albeok/DJango-MongoDB",
             liveDemo: ""
