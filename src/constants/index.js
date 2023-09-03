@@ -1,5 +1,5 @@
 import {
-    github, linkedin, react, html, css, js, tailwind, bootstrap, python, django, mongodb, solidity, linux, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio
+    github, linkedin, react, vuejs, html, css, js, tailwind, bootstrap, python, django, mongodb, solidity, linux, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +37,10 @@ export const skills = [
     {
         id: "react",
         icon: react
+    },
+    {
+        id: "vuejs",
+        icon: vuejs
     },
     {
         id: "tailwind",
