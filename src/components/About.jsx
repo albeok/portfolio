@@ -1,7 +1,7 @@
 import { laptop, arrowdown } from "../assets"
 
 const About = () => (
-    <section id="about" className="bg-gradient-to-b from-slate-50 sm:pt-4 pt-2">
+    <section id="about" className="bg-gradient-to-b from-slate-50 sm:py-4 lg:py-20 py-2">
         <div className="flex flex-col-reverse md:flex-row-reverse gap-6 md:gap-32 justify-center mt-[100px] sm:mx-[150px] mx-1 mb-10">
             <div className="flex flex-col">
                 <h4 className="text-red-400 font-poppins text-xl md:text-left text-center font-semibold uppercase md:mb-[50px] mb-[20px]">

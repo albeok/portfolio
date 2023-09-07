@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section id="home" className="bg-gradient-to-b from-slate-50">
             <div className="flex flex-col">
-                <div className="flex sm:flex-row-reverse flex-col justify-center items-center sm:gap-[13rem] gap-[4rem] md:pt-[130px] pt-[100px] mx-[30px]">
+                <div className="flex sm:flex-row-reverse flex-col justify-center lg:justify-around items-center sm:gap-[13rem] gap-[4rem] md:pt-[230px] pt-[100px] mx-[30px] lg:mx-0">
                     <div className="flex relative">
                         <img src={hero_image} alt="hero_image" className="w-[300px] h-[300px] object-cover object-center border-[#2d2e32] border-[3px] relative z-10" />
                         <div className="absolute top-6 left-6 border-2 border-red-300 z-0 w-full h-full" />

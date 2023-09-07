@@ -26,7 +26,8 @@ import mail from "./mail.svg"
 import linkedin2 from "./linkedin2.svg"
 import bootstrap from "./bootstrap.svg"
 import vuejs from "./vuejs.svg"
+import java from "./java.svg"
 
 export {
-    close, github, hamburger, hero_image, linkedin, react, html, js, python, django, tailwind, css, solidity, mongodb, linux, laptop, arrowdown, arrowTopRight, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio, mail, linkedin2, bootstrap, vuejs
+    close, github, hamburger, hero_image, linkedin, react, html, js, python, django, tailwind, css, solidity, mongodb, linux, laptop, arrowdown, arrowTopRight, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio, mail, linkedin2, bootstrap, vuejs, java
 }
