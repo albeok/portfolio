@@ -15,7 +15,7 @@ const Contact = () => (
                 </div>
                 <div className="flex md:flex-row flex-col-reverse gap-2 md:gap-5 items-center">
                     <span className="font-poppins text-[#555] text-center hover:text-black transition-all">
-                        <a href="https://www.linkedin.com/in/alberto-t-876425203/" target="_blank">Alberto Toscano</a>
+                        <a href="https://www.linkedin.com/in/alberto-toscano/" target="_blank">Alberto Toscano</a>
                     </span>
                     <img src={linkedin2} />
                 </div>

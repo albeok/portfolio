@@ -1,5 +1,5 @@
 import {
-    github, linkedin, react, vuejs, html, css, js, tailwind, bootstrap, python, django, java, mongodb, solidity, linux, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio
+    github, linkedin, jquery,php,mysql,js, django, java, mongodb, solidity, cryptoReport, veganStyle, btcExchange, healthChainSC, healthChainUI, portfolio,node,pacman
 } from "../assets";
 
 export const navLinks = [
@@ -7,10 +7,10 @@ export const navLinks = [
         id: "home",
         title: "Home",
     },
-    {
+    /*{
         id: "about",
         title: "About",
-    },
+    },*/
     {
         id: "projects",
         title: "Projects",
@@ -23,127 +23,122 @@ export const navLinks = [
 
 export const skills = [
     {
-        id: "html",
-        icon: html
-    },
-    {
-        id: "css",
-        icon: css
-    },
-    {
         id: "javascript",
         icon: js
     },
     {
-        id: "react",
-        icon: react
+        id: "node",
+        icon: node
     },
     {
-        id: "vuejs",
-        icon: vuejs
+        id:"jquery",
+        icon:jquery
     },
     {
-        id: "tailwind",
-        icon: tailwind
-    },
-    {
-        id: "bootstrap",
-        icon: bootstrap
-    },
-    {
-        id: "python",
-        icon: python
-    },
-    {
-        id: "django",
-        icon: django
+        id:"php",
+        icon:php
     },
     {
         id: "java",
         icon: java
     },
     {
-        id: "solidity",
-        icon: solidity
+        id:"mysql",
+        icon:mysql
     },
     {
         id: "mongodb",
         icon: mongodb
     },
     {
-        id: "linux",
-        icon: linux
+        id: "django",
+        icon: django
+    },
+    {
+        id: "solidity",
+        icon: solidity
     }
 ]
 
 export const projects = [
     {
         id: 0,
+        image: pacman,
+        title: "Pacman",
+        description: "Pacman game using only javascript, jquery, css, canva",
+        skills: ["Javascript", "OOP","jQuery"],
+        links: {
+            github: "https://github.com/albeok/Pacman-With-Canva",
+            liveDemo: "https://alberto-pacman.netlify.app/"
+        }
+    },
+    {
+        id: 1,
         image: cryptoReport,
         title: "Python Project",
         description: "Everyday this program pick some informations from CoinMarketCap to generate some information you care about and save them in a JSON file.",
         skills: ["Python", "JSON"],
         links: {
-            "github": "https://github.com/albeok/Python-Project",
+            github: "https://github.com/albeok/Python-Project",
             liveDemo: ""
         }
     },
     {
-        id: 1,
+        id: 2,
         image: veganStyle,
         title: "Vegan Style",
         description: "Data board for a synthetic meat startup where the products are registered in the Ethereum Blockchain.",
         skills: ["Python", "Django", "SQLite", "Redis", "Bootstrap"],
         links: {
-            "github": "https://github.com/albeok/Django-Redis",
-            liveDemo: "http://albertot.pythonanywhere.com/"
-        }
-
-    },
-    {
-        id: 2,
-        image: btcExchange,
-        title: "Bitcoin Exchange",
-        description: "Cryptocurrency exchange platform. USD/BTC exchange with no fees.",
-        skills: ["Python", "Django", "MongoDB", "JSON", "Bootstrap"],
-        links: {
-            "github": "https://github.com/albeok/DJango-MongoDB",
+            github: "https://github.com/albeok/Django-Redis",
             liveDemo: ""
         }
 
     },
     {
         id: 3,
-        image: healthChainSC,
-        title: "HealthChain Back-End",
-        description: "Decentralized health records management system built on the Ethereum blockchain.",
-        skills: ["Solidity", "HardHat"],
+        image: btcExchange,
+        title: "Bitcoin Exchange",
+        description: "Cryptocurrency exchange platform. USD/BTC exchange with no fees.",
+        skills: ["Python", "Django", "MongoDB", "JSON", "Bootstrap"],
         links: {
-            "github": "https://github.com/albeok/HealthChain",
+            github: "https://github.com/albeok/DJango-MongoDB",
             liveDemo: ""
         }
 
     },
     {
         id: 4,
-        image: healthChainUI,
-        title: "HealtChain UI",
-        description: "UI of the HealtChain Smart Contract built with React.",
-        skills: ["JavaScript", "React", "Tailwind"],
+        image: healthChainSC,
+        title: "HealthChain Back-End",
+        description: "Decentralized health records management system built on the Ethereum blockchain.",
+        skills: ["Solidity", "HardHat"],
         links: {
-            "github": "https://github.com/albeok/HealthChain_UI",
-            liveDemo: "https://healthchainui.netlify.app/"
+            github: "https://github.com/albeok/HealthChain",
+            liveDemo: ""
         }
 
     },
     {
         id: 5,
+        image: healthChainUI,
+        title: "HealthChain UI",
+        description: "UI of the HealthChain Smart Contract built with React.",
+        skills: ["JavaScript", "React", "Tailwind"],
+        links: {
+            github: "https://github.com/albeok/HealthChain_UI",
+            liveDemo: "https://healthchainui.netlify.app/"
+        }
+
+    },
+    {
+        id: 6,
         image: portfolio,
         title: "Portfolio",
         description: "Wanna Know how I managed to build this? Here's the link!",
         skills: ["JavaScript", "React", "Tailwind"],
         links: {
-            "github": "https://github.com/albeok/portfolio",
+            github: "https://github.com/albeok/portfolio",
             liveDemo: ""
         }
 
@@ -164,7 +159,7 @@ export const footerLinks = [
                 id: "social-media-2",
                 name: "linkedin",
                 icon: linkedin,
-                link: "https://www.linkedin.com/in/alberto-t-876425203/",
+                link: "https://www.linkedin.com/in/alberto-toscano/",
             },
         ]
     }
