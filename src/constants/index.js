@@ -63,14 +63,15 @@ export const skills = [
 export const projects = [
     {
         id: 0,
-        image: pacman,
-        title: "Pacman",
-        description: "Pacman game using only javascript, jquery, css, canva",
-        skills: ["Javascript", "OOP","jQuery"],
+        image: portfolio,
+        title: "Portfolio",
+        description: "Wanna Know how I managed to build this? Here's the link!",
+        skills: ["JavaScript", "React", "Tailwind"],
         links: {
-            github: "https://github.com/albeok/Pacman-With-Canva",
-            liveDemo: "https://alberto-pacman.netlify.app/"
+            github: "https://github.com/albeok/portfolio",
+            liveDemo: ""
         }
+
     },
     {
         id: 1,
@@ -109,6 +110,19 @@ export const projects = [
     },
     {
         id: 4,
+        image: healthChainUI,
+        title: "HealthChain UI",
+        description: "UI of the HealthChain Smart Contract built with React.",
+        skills: ["JavaScript", "React", "Tailwind"],
+        links: {
+            github: "https://github.com/albeok/HealthChain_UI",
+            liveDemo: "https://healthchainui.netlify.app/"
+        }
+
+    },
+    
+    {
+        id: 5,
         image: healthChainSC,
         title: "HealthChain Back-End",
         description: "Decentralized health records management system built on the Ethereum blockchain.",
@@ -120,29 +134,28 @@ export const projects = [
 
     },
     {
-        id: 5,
-        image: healthChainUI,
-        title: "HealthChain UI",
-        description: "UI of the HealthChain Smart Contract built with React.",
-        skills: ["JavaScript", "React", "Tailwind"],
+        id: 6,
+        image: pacman,
+        title: "Pacman",
+        description: "Pacman game using only javascript, jquery, css, canva",
+        skills: ["Javascript", "OOP","jQuery"],
         links: {
-            github: "https://github.com/albeok/HealthChain_UI",
-            liveDemo: "https://healthchainui.netlify.app/"
+            github: "https://github.com/albeok/Pacman-With-Canva",
+            liveDemo: "https://alberto-pacman.netlify.app/"
         }
-
     },
     {
-        id: 6,
-        image: portfolio,
-        title: "Portfolio",
-        description: "Wanna Know how I managed to build this? Here's the link!",
-        skills: ["JavaScript", "React", "Tailwind"],
+        id: 7,
+        image: "",
+        title: "Travel Explorer",
+        description: "A very simple and quick to make Java application to manage travel destinations and reservations with CLI. ",
+        skills: ["Java"],
         links: {
-            github: "https://github.com/albeok/portfolio",
+            github: "https://github.com/albeok/TravelExplorer",
             liveDemo: ""
         }
 
-    },
+    }
 ]
 
 export const footerLinks = [

@@ -3,7 +3,7 @@ import { github, arrowTopRight } from "../assets";
 
 const Card = () => (
     <div className="flex flex-col gap-16 justify-center">
-        {projects.map(project => (
+        {[...projects].reverse().map(project => (
             <div className={`p-10 lg:py-36 shadow-custom rounded-xl flex flex-col-reverse ${project.id % 2 ? "md:flex-row " : "md:flex-row-reverse"} justify-center gap-10`} key={project.id}>
                 <div className="flex flex-col h-auto md:w-1/3 w-[100%]">
                     <h3 className="font-poppins text-lg font-semibold text-center text-[#2d2e32] uppercase my-5">{project.title}</h3>
@@ -26,9 +26,9 @@ const Card = () => (
                         </div>
                     }
                 </div>
-                <div className="overflow-hidden h-[400px] md:w-2/3 w-[100%] rounded-3xl shadow-md">
+                {project.image&&<div className="overflow-hidden h-[400px] md:w-2/3 w-[100%] rounded-3xl shadow-md">
                     <img src={project.image} alt="project" className="object-contain w-full animate-scroll" />
-                </div>
+                </div>}
             </div>
         ))}
     </div >
