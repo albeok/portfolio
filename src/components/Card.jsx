@@ -2,7 +2,7 @@ import { projects } from "../constants"
 import { github, arrowTopRight } from "../assets";
 
 const Card = () => (
-    <div className="flex flex-col gap-16 justify-center">
+    <div className="flex flex-col gap-16 justify-center lg:px-[200px] xl:px-[450px]">
         {[...projects].reverse().map(project => (
             <div className={`p-10 lg:py-36 shadow-custom rounded-xl flex flex-col-reverse ${project.id % 2 ? "md:flex-row " : "md:flex-row-reverse"} justify-center gap-10`} key={project.id}>
                 <div className="flex flex-col h-auto md:w-1/3 w-[100%]">
